@@ -1,1 +1,3 @@
-# flexisaf-30days-css-challenge
+# FlexiSAF 30 Days CSS Challenge
+
+## Below are the instructions
