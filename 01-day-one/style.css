@@ -1,0 +1,110 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 50%;
+	height: auto;
+	margin: auto;
+	margin-top: 8%;
+	margin-bottom: 5%;
+}
+
+@media screen and (max-width: 640px){
+  .container{
+    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .container{
+    width: 40%;
+  }
+}
+
+
+.content {
+  position: relative;
+  width: 100%;
+}
+
+.content .content-overlay {
+  background: transparent;
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+}
+
+.content .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-90%, -90%);
+  -moz-transform: translate(-90%, -90%);
+  transform: translate(-90%, -90%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.responsive-img{
+	width: 100%;
+	height: auto;
+}
+
+.content-details .box i{
+	background: #fff;
+	padding: 10px;
+	font-size: 35px;
+}
+
+.content-details .box i:hover{
+	background: #4DA3E2;
+	color: #fff;
+	padding: 10px;
+	font-size: 35px;
+}
+
+
+.content .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content .content-text{
+	background-color: #fff;
+	padding: 20px;
+}
+.content .content-text h3{
+	font-weight: 400;
+	font-size: 2em;
+}
+
+.content .content-text p{
+	color: #4DA3E2;
+	font-weight: 700;
+	font-size: 2em;
+}
