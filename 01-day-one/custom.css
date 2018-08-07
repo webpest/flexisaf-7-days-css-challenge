@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+:root {
+    font-size: 14px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.card {
+    position: relative;
+    background: #FFF;
+    position: relative;
+    width: 30%;
+    margin: 10% auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+.hovering-box {
+    position: absolute;
+    background: #FFF;
+    width: 70px;
+    text-align: center;
+    padding: 15px 0;
+    top: 180px;
+    left: 20px;
+    cursor: pointer;
+}
+.hovering-box:nth-child(2) {
+    top: 20px;
+    left: 20px;
+}
+.hovering-box:nth-child(3) {
+    top: 100px;
+    left: 20px;
+}
+.hovering-box:hover {
+    background: #4da3e2;
+    color: #FFF;
+}
+.hovering-box i {
+    font-size: 2.5rem;
+}
+.card img {
+    width: 100%;
+    height: 100%;
+}
+.card-footer {
+    padding: 5px 13px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: -5px;
+}
+.card-footer p {
+    font-size: 3rem;
+    line-height: 1rem;
+    text-transform: capitalize
+}
+.footer-name {
+    font-weight: 500;
+}
+.footer-price {
+    color: #4da3e2;
+    font-weight: bolder;
+}
