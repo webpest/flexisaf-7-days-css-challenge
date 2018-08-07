@@ -1,0 +1,86 @@
+@font-face {
+	font-family: antiqua;
+	src: url(font/ModernAntiqua-Regular.ttf);
+}
+@font-face {
+	font-family: anton;
+	src: url(font/Anton.ttf);
+}
+h3{
+	font-family: anton;
+}
+p{
+	font-family: antiqua;
+}
+
+.wrapper {
+	margin: 0 auto;
+}
+.card-component {
+	max-width: 280px;
+	margin: 0 auto;
+	margin-top: 50px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+	transition: 0.5s;
+}
+.card-component img{
+	max-width: 100%;
+	height: auto;
+}
+.card-component .overlay {
+	background: url(img/binocularr.svg) no-repeat center;
+	background-size: 62%;
+	height: 33px;
+	width: 3%;
+	position: absolute;
+	margin-top: -162px;
+    background-color: #d4a3a3;
+    opacity: 0.8;
+}
+.card-component .overlay-one {
+	background: url(img/bomb-grenade.svg) no-repeat center;
+	background-size: 62%;
+	height: 33px;
+	width: 3%;
+	position: absolute;
+	margin-top: -122px;
+    background-color: #f3f0f0;
+    opacity: 0.6;
+}
+.card-component .overlay-two {
+	background: url(img/hammer-1.svg) no-repeat center;
+	background-size: 62%;
+	height: 33px;
+	width: 3%;
+	position: absolute;
+	margin-top: -82px;
+    background-color: #f3f0f0;
+    opacity: 0.6;
+}
+.card-component .overlay:hover{
+	opacity: 1.0;
+}
+.card-component .overlay-one:hover{
+	opacity: 1.0;
+}
+.card-component .overlay-two:hover{
+	opacity: 1.0;
+}
+/*.card-component .overlay img{
+	width: 10%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	color: red;
+}*/
+.card-component:hover {
+	box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+.name-placeholder {
+	padding: 6px 16px;
+	margin-top: -10px;
+}
+.name-placeholder p{
+	margin-top: -10px;
+}
