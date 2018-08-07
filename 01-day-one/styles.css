@@ -1,0 +1,62 @@
+body{
+    font-family:  'Lato', sans-serif; 
+}
+.col-1 {width: 25%;}
+.col-2 {width: 50%;}
+.col-3 {width: 75%;}
+.col-4 {width: 100%;}
+
+.top {
+    background-image: url("pexels-photo-906024.jpeg");
+    width: 100%;
+    height: 55vh;
+}
+
+.fas {
+    padding: 20px;
+}
+
+.icon-container{
+    padding: 15px 10px;
+}
+
+.icon {
+    margin: 10px;
+}
+.fa-share-alt {
+    padding: 22px;
+    background-color: white;
+}
+.fa-star{
+    background-color: white;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.text{
+    font-weight: 700;
+    font-size: 35px;
+    margin: 1px;
+}
+.ammount {
+    font-size: 38px;
+    font-weight: bolder;
+    margin: 1px;
+    padding: 0px 0px 20px 0px;
+    color: rgba(38,110,218,0.5);
+}
+.fa-shopping-cart {
+    background-color: #2a71db;
+    color: white;
+}
