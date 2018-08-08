@@ -1,0 +1,120 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400px;
+}
+
+.flex-container {
+	margin: auto;
+	margin-top: 5%;
+	width: 50%;
+	height: auto;
+  	display: flex;
+  	flex-direction: column;
+  	background-color: #1C1D1C;
+  	padding: 20px;
+}
+
+@media screen and (max-width: 640px){
+  .flex-container{
+    display: block;
+    width: 88%;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .flex-container{
+    width: 25%;
+  }
+}
+
+.btn{
+	height: 45px;
+	background-color: #ED383B;
+	color: #fff;
+	font-size: 20px;
+	border: none;
+}
+
+hr{
+	width: 100%;
+	border-color: #ccc;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+
+.top-section{
+	color: #fff;
+	display: inline-block;
+}
+
+.top-section .title{
+	font-size: 30px;
+}
+
+.top-section .close{
+	float: right;
+	padding-top: 10px;
+}
+
+.responsive-img{
+	width: 100%;
+	height: auto;
+}
+
+.middle-section{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: inline-flex;
+}
+
+.bottom-section{
+	display: inline-flex;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.p-name{
+	padding-left: 10px;
+	color: #fff;
+	font-size: 18px;
+}
+
+#ts{
+	display: inline-flex;
+	color: #ccc;
+}
+
+
+.sub-t{
+	padding-top: 10px;
+	color: #fff;
+}
+
+.sub-t .free{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: 400px;
+	color: #ccc;
+}
+
+.sub-t .free p{
+	font-size: 16px;
+}
+
+
+.sub-t .free .p{
+	font-size: 12px;
+}
+.sub{
+	font-size: 20px;
+}
+
+.ds{
+	float: right;
+}
