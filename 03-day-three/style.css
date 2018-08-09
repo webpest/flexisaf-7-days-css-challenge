@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'segoe ui';
+    overflow: hidden;
+}
+.wrapper {
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    background-image:
+    linear-gradient(
+      to bottom, 
+      #f7f8fa,
+      #f7f8fa 40%,
+      #268de9 40%,
+      #268de9 60%
+    );
+}
+.billing-container {
+    margin: 8% auto;
+    width: 35%;
+    background: #09345e;
+    padding: 30px;
+    border-radius: 8px 8px 0 0;
+}
+.steps {
+    width: 100%;
+    padding: 10px 0;
+}
+.steps .step-num {
+    background: #4ac989;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 20px;
+    color: #f7f8fa;
+}
+.step-one {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: relative;
+}
+.inputs {
+    display: flex;
+}
+.input {
+    padding: 10px 0;
+    margin: 0 5px;
+}
+.input:nth-child(1),
+.input:nth-child(2) {
+    width: 38%;
+}
+.input:nth-child(3) {
+    width: 24%;
+}
+.input:nth-child(1) .select-field,
+.input:nth-child(2) .select-field {
+    width: 88%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #ccc;
+}
+.input:nth-child(3) .input-field {
+    width: 78%;
+}
+.label {
+    color: #f7f8fa;
+    font-size: 14px;
+    font-weight: 500;
+}
+.input-field {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #ccc;
+}
+.header-- {
+    width: 100%;
+    padding: 30px 0;
+}
+.plans {
+    display: flex;
+}
+.plan-col {
+    width: 50%;
+    padding: 20px;
+    background: transparent;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    position: relative;
+}
+.plan-col.active {
+    border: 2px solid #4ac989;
+    background: #154778;
+}
+.plan-col:nth-child(2) {
+    margin-left: 15px;
+}
+.plan-col h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: #f7f8fa;
+    line-height: 0;
+    margin-top: 70px;
+}
+.plan-col p {
+    text-transform: uppercase;
+    font-size: .75rem;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(255, 255, 255, .3);
+    margin-bottom: 50px;
+}
+.plan-col button {
+    width: 100%;
+    padding: 15px 0;
+    border: none;
+    background: #154778;
+    color: rgba(255, 255, 255, .3);
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.plan-col h4 {
+    margin-top: 13px;
+    position: absolute;
+    width: 88%;
+}
+.plan-col .top-- {
+    width: 100%;
+    position: relative;
+    padding: 10px 0;
+    text-align: center;
+}
+.plan-col .top-- input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: rgba(255, 255, 255, .2);
+    width: 25px;
+    height: 25px;
+    outline: none;
+    position: absolute;
+    margin-left: -75px;
+    margin-top: 0;
+}
+.plan-col .top-- input::after {
+    content: '\2714';
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-left: 20%;
+    color: rgba(0, 0, 0, .2)
+}
+.plan-col .top-- input:checked {
+    background: #4ac989;
+}
+.plan-col .top-- input:checked::after {
+    content: '\2714';
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-left: 20%;
+    color: #f7f8fa;
+}
+.plan-col .top-- .title-- {
+    text-align: center;
+    color: #f7f8fa;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.plan-col .save-- {
+    color: #4ac989;
+    font-weight: 600;
+}
+.plan-col .annually-- {
+    float: right;
+    color: #f7f8fa;
+    font-weight: 600;
+}
