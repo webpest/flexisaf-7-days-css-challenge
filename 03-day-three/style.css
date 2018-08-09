@@ -1,0 +1,243 @@
+.doouble-background {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.page {
+    margin: 0;
+    min-height: 100vh;
+}
+
+.page:before {
+    content: "";
+    position: absolute;
+    background: #2962ff;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 60%;
+}
+
+.card {
+    position: absolute;
+    top: 30%;
+    left: 34%;
+    margin: -160px 0 0 -160px;
+    width: 50%;
+    /* height: 320px; */
+    padding: 50px;
+    background-color: #09345e;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    color: #f3fcfd;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+}
+
+h5 {
+    margin: 0;
+    margin-top: 7px;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background: #3bcb7e;
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 5px;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.form {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.form div:nth-of-type(1) {
+    flex-grow: 3;
+    font-family: 'Do Hyeon', sans-serif;
+    margin-right: 10px;
+}
+
+.form div:nth-of-type(2) {
+    flex-grow: 3;
+    font-family: 'Do Hyeon', sans-serif;
+    margin-right: 10px;
+}
+
+.form div:nth-of-type(3) {
+    flex-grow: 1;
+    font-family: 'Do Hyeon', sans-serif;
+    margin-left: 10px;
+}
+
+select {
+    display: block;
+    width: 100%;
+    background-color: #fefeff;
+    color: #b1b2b5;
+    border-radius: 5px;
+    height: 40px
+}
+
+input[type=text] {
+    display: block;
+    /* margin: 0 auto; */
+    width: 60%;
+    background-color: #fefeff;
+    color: #b1b2b5;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.plan {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.billing {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+}
+
+.billing div:nth-of-type(1) {
+    font-family: 'Do Hyeon', sans-serif;
+    border: solid #3bcb7e 2px;
+    background-color: #154575;
+    height: 200px;
+    border-radius: 5px;
+    width: 42%;
+    padding: 20px;
+}
+
+.billing div:nth-of-type(2) {
+    width: 42%;
+    font-family: 'Do Hyeon', sans-serif;
+    border: solid #15426f 2px;
+    height: 200px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.top-p {
+    margin: 0;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.billing h5 {
+    margin-top: 0;
+    color: #5483b1;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 45px
+}
+
+footer p {
+    margin-top: 35px;
+    text-align: center;
+    font-size: 13px;
+}
+
+span {
+    color: #3bcb7e;
+    margin-right: 50px;
+}
+
+input[type="checkbox"] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    float: left;
+    width: 23px;
+    height: 23px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+    position: absolute;
+    outline: none;
+    margin-top: -3px;
+}
+
+input[type="checkbox"]::before {
+    content: "\2714";
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-left: 20%;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+input[type="checkbox"]:checked {
+    background: #4ac989;
+}
+
+input[type="checkbox"]:checked::before {
+    color: #fefeff;
+}
+
+.btn.btn-primary {
+    margin-top: 30px;
+    background: #164778;
+    border-color: #164778;
+    color: #6a96c1;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 0.83em;
+    /* margin-left: 8px; */
+}
+
+.btn {
+    background: #fff;
+    border: .05rem solid #5755d9;
+    border-radius: .3rem;
+    color: #5755d9;
+    cursor: pointer;
+    display: inline-block;
+    font-size: .8rem;
+    height: 2.6rem;
+    line-height: 1rem;
+    outline: 0;
+    padding: .35rem .4rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s ease;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+/* .checkbox input[type=checkbox] {
+    display: none;
+}
+
+.checkbox input[type=checkbox]:not(:checked)+label:before {
+    content: "";
+    border: 2px solid #3bcb7e;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background: #3bcb7e;
+    border-radius: 5px;
+}
+
+.checkbox input[type=checkbox]:checked+label:before {
+    content: "";
+    border: 2px solid #000;
+    height: 10px;
+    width: 10px;
+    background: #3bcb7e;
+    display: inline-block;
+} */
