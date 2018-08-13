@@ -1,0 +1,167 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Tajawal', sans-serif;
+}
+
+/*Nav bar*/
+.container{
+	display: flex; /* or inline-flex */
+	flex-direction: column;
+	padding: 10px;
+}
+
+.nav{
+	width: 100%;
+}
+
+.nav-bar{
+	text-align: center;
+	padding-top: 5px;
+}
+
+.nav-bar li {
+	display: inline;
+}
+
+.nav-bar li a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 700;
+	margin-left: 20px;
+	font-size: 16px;
+}
+
+.logo {
+	float: left;
+	text-decoration: none;
+	color: #000;
+	font-weight: 700;
+	font-size: 18px;
+}
+.side-menu {
+	float: right;
+	display: inline;
+}
+
+#ham{
+	margin-left: 10px;
+}
+
+/*Main section*/
+.container-2{
+	display: flex; /* or inline-flex */
+	margin-top: 5px;
+}
+
+
+
+.login {
+	width: 33%;
+}
+
+.form{
+	margin: auto;
+	margin-top: 20%;
+	width: 60%;
+	padding: 10px;
+}
+
+.con{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.con input{
+	width: 90%;
+	height: 20px;
+	background-color: #c7c7c7;
+	border-radius: 5px;
+	border: none;
+	margin-top: 10px;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.btn {
+	width: 97%;
+	height: 40px;
+	border-radius: 5px;
+	border: none;
+	margin-top: 20px;
+	background-color: #8cbeb2;
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #fff;
+}
+.form #title{
+	font-size: 14px;
+	color: #c7c7c7;
+	font-weight: 700;
+}
+.form #foot{
+	text-align: center;
+	color: #333333;
+	font-size: 13px;
+}
+
+.form #foot a{
+	text-decoration: none;
+	font-weight: 700;
+	color: #8cbeb2;
+}
+.image {
+	width: 67%;
+	height: auto;
+}
+
+.responsive{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/*Footer*/
+.footer{
+	display: flex; /* or inline-flex */
+	justify-content: center;
+	background-color: #1f1f1f;
+	height: auto;
+	color: #fff;
+	padding: 40px;
+}
+
+.item {
+  margin: 5px;
+  padding: 15px;
+  font-size: 30px;
+  width: 200px;
+}
+
+.item p{
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+#social span i{
+	font-size: 20px;
+}
+.item .box{
+	background-color: #000;
+	border: 1px solid #000;
+	width: 50px;
+	height: 50px;
+	margin: 2px;
+	display: inline-flex;
+}
