@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal:400,500');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tajawal', sans-serif;
+}
+.wrapper {
+    width: 100%;
+}
+.navbar-- {
+    width: 100%;
+    background-color: #FFF;
+}
+.navbar--  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.navbar-- li {
+    float: left;
+}
+.navbar-- li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.navbar-- li a.logo {
+    font-size: 2rem;
+    position: absolute;
+    padding: 20px 16px;
+    text-transform: capitalize;
+}
+.navbar-- ul div {
+    margin: auto;
+    width: 30%;
+    text-align: center;
+}
+.content-- {
+    width: 100%;
+    display: flex;
+}
+.login-div-- {
+    width: 30%;
+}
+.img-div-- {
+    width: 70%;
+    background: url(tailor.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login-form--{
+    margin: 15% auto 45% auto;
+    width: 60%;
+    /* background-color: teal; */
+    padding: 10px;
+}
+.login-form-- small {
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #a39e9e;
+    width: 10%;
+}
+.login-form-- form {
+    margin: 10% 0;
+}
+.login-input {
+    width: 88%;
+    background-color: #c7c7c7;
+    color: #FFF;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+    padding: 15px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.login-input:nth-child(1) {
+    background: url(user.png) no-repeat scroll 7px 12px #c7c7c7;
+    padding-left:30px;
+}
+.login-input:nth-child(2) {
+    background: url(lock.png) no-repeat scroll 7px 12px #c7c7c7;
+    padding-left:30px;
+}
+::-webkit-input-placeholder {
+    color: #FFF
+}
+::-moz-placeholder {
+    color: #FFF;
+}
+.login-btn {
+    background: #8cbeb2;
+    color: #FFF;
+    width: 100%;
+    margin-top: 30px;
+    border: none;
+    border-radius: 3px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.login-form-- p {
+    color: #9990d8;
+    text-align: center;
+    font-weight: 500;
+}
+.login-form-- p a {
+    color: #1f1f1f;
+}
+.footer-- {
+    background: #1f1f1f;
+    padding: 30px;
+}
+.footer-contr-- {
+    margin: 5% auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer-info {
+    padding: 10px;
+    margin: 0 10px;
+    width: 20%;
+    color: #FFF;
+}
+.social-icon {
+    color: #FFF;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin: 10px;
+}
+.footer-info h4 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.footer-info ul {
+    padding: 0;
+    margin: 0;
+}
+.footer-info ul li {
+    list-style-type: none;
+    margin: 10px 0;
+    position: relative;
+}
+.footer-info ul li i {
+    position: absolute;
+    font-size: .8rem;
+}
+.square {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.box {
+    height: 80px;
+    width: 80px;
+    background: #000;
+    margin: 1px;
+}
+  
+/* On screens that are 600px or less, set the background color to olive */
+@media (min-width: 320px) {
+    .navbar-- ul li a.link{
+        display: none;
+    }
+    .login-div-- {
+        width: 100%;
+    }
+    .img-div-- {
+        width: 70%;
+        background: url(tailor.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: none;
+    }
+    .footer-contr-- {
+        width: 90%;
+    }
+    .footer-info {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .navbar-- ul li a.link{
+        display: block;
+    }
+    .navbar-- ul div {
+        margin: auto;
+        width: 50%;
+        text-align: center;
+    }
+    .login-div-- {
+        width: 40%;
+    }
+    .img-div-- {
+        width: 60%;
+        display: block;
+    }
+    .footer-contr-- {
+        width: 100%;
+    }
+    .footer-info {
+        width: 20%;
+    }
+}
+@media (min-width: 1200px) {
+    .navbar-- ul div {
+        margin: auto;
+        width: 30%;
+        text-align: center;
+    }
+    .login-div-- {
+        width: 30%;
+    }
+    .img-div-- {
+        width: 70%;
+        display: block;
+    }
+    .footer-contr-- {
+        width: 70%;
+    }
+    .footer-info {
+        width: 20%;
+    }
+}
