@@ -165,3 +165,25 @@
 	margin: 2px;
 	display: inline-flex;
 }
+
+@media screen and (max-width: 640px){
+  .nav-bar li {
+	display: none;
+}
+.login {
+	width: 100%;
+}
+
+.image {
+	display: none;
+}
+
+.footer{
+	flex-direction: column;
+}
+
+.item{
+	margin: auto;
+}
+
+}
